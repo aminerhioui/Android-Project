@@ -9,3 +9,5 @@ l'utilisateur généralement de spécifier au moins les analyses
 
 REMARQUE: vue que github ne permet pas l'upload de plus de 100 Mo.
 J'ai mis simplement un echantillon de data.
+
+Branch de RHIOUI MOHAMED AMINE.
