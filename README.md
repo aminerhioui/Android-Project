@@ -7,3 +7,5 @@ camera du téléphone). Elle permettra ainsi au médecin ou
 l'utilisateur généralement de spécifier au moins les analyses
 à effectuer.
 
+REMARQUE: vue que github ne permet pas l'upload de plus de 100 Mo.
+J'ai mis simplement un echantillon de data.
