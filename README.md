@@ -8,4 +8,6 @@ l'utilisateur généralement de spécifier au moins les analyses
 à effectuer.
 # DATA AFTER CLEANING AND ANALYZING V 2.0
 Drive : https://drive.google.com/drive/folders/1dh9WHBX1w7CZnKdCv_Lr4ZaBVBBXWQsv?usp=sharing 
+# une aplication android qui test le modele (en cours de finalisation) 
+Drive :https://drive.google.com/drive/folders/1uWZNQekTP7n8HlIxcBYQibyWr0hVxHyB?usp=sharing
 
