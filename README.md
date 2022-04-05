@@ -19,3 +19,4 @@ l'utilisateur généralement de spécifier au moins les analyses
 </ul>
 <br />
 <a href="https://drive.google.com/file/d/1F9BMRLfG0Mh_H-eUg4WQTY0OaQDkQOOz/view?usp=sharing" targer="_blank">URL to cleaned and analyzed dataset</a>
+<p><b>PS: This is the only version of the dataset that will be used in the project</b></p>
