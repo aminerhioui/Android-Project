@@ -10,4 +10,6 @@ l'utilisateur généralement de spécifier au moins les analyses
 REMARQUE: vue que github ne permet pas l'upload de plus de 100 Mo.
 J'ai mis simplement un echantillon de data.
 
+La tache réaliser est la creation et le remplissage de la base de donnée sqlite, ainsi que l'interogation de la base de donnée et l' affichage des resultats en utilisant arrayListAdapter.
+
 Branch de RHIOUI MOHAMED AMINE.
