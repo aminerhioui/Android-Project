@@ -1,8 +1,11 @@
 # Latest features
 - added the first loading page and the home page 
-<img width="184" alt="home page" src="https://github.com/aminerhioui/Android-Project/blob/zahar_branch/Screenshot_20220420-200914.jpg">
-<img width="184" alt="home page" src="https://github.com/aminerhioui/Android-Project/blob/zahar_branch/Screenshot_20220420-200241.jpg">
-<img width="184" alt="home page" src="https://github.com/aminerhioui/Android-Project/blob/zahar_branch/Screenshot_20220420-200254.jpg">
+- First loading page :
+<img width="184" alt="home page" src="https://github.com/aminerhioui/Android-Project/blob/zahar_branch/Screenshot_20220420-200914.jpg"/>
+
+- Home page
+<img width="184" alt="home page" src="https://github.com/aminerhioui/Android-Project/blob/zahar_branch/Screenshot_20220420-200241.jpg"/>
+<img width="184" alt="home page" src="https://github.com/aminerhioui/Android-Project/blob/zahar_branch/Screenshot_20220420-200254.jpg"/>
 
 ## Maquettes du projet (Page d'accueil) - First prototype -
 <img width="184" alt="accueil1" src="https://user-images.githubusercontent.com/77229978/159387905-e8dabc1e-fed8-469f-8ad7-72bf4f3141c8.png">
