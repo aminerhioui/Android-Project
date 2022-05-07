@@ -2,50 +2,25 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_alignParentStart="true"
-    android:layout_alignParentEnd="false"
-    android:layout_alignParentBottom="false"
-    android:gravity="bottom|center"
-    android:orientation="vertical"
-    tools:context=".ListMaladie">
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="572dp">
-
-        <AutoCompleteTextView
-            android:id="@+id/automal"
-            android:layout_width="229dp"
-            android:layout_height="55dp"
-            android:layout_marginEnd="48dp"
-            android:layout_marginBottom="28dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/imageButton"
-            tools:ignore="SpeakableTextPresentCheck" />
-
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="69dp"
-            android:layout_height="56dp"
-            android:layout_marginEnd="28dp"
-            app:layout_constraintBottom_toBottomOf="@+id/automal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:srcCompat="@android:drawable/ic_menu_search"
-            tools:ignore="SpeakableTextPresentCheck" />
-
-        <SearchView
-            android:layout_width="358dp"
-            android:layout_height="285dp"
-            tools:layout_editor_absoluteX="-21dp"
-            tools:layout_editor_absoluteY="102dp" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    android:visibility="visible"
+    tools:context=".ListMaladie"
+    tools:visibility="visible">
 
     <ListView
         android:id="@+id/lst"
-        android:layout_width="347dp"
-        android:layout_height="473dp"
-        android:baselineAligned="false" />
+        android:layout_width="190dp"
+        android:layout_height="598dp" />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
 
 </LinearLayout>

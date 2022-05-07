@@ -14,8 +14,7 @@ import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
 
-public class MaladieAdapter extends ArrayAdapter<Maladie> {
-
+public class MaladieAdapter extends ArrayAdapter<Maladie>{
     private Context mContext;
     private int mResource;
     private ArrayList<Maladie> arrayList;
@@ -25,7 +24,10 @@ public class MaladieAdapter extends ArrayAdapter<Maladie> {
         this.mResource=resource;
         this.arrayList=arrayList;
     }
-
+    //@Override
+    //public String toString(){
+    //    return arrayList.nom_maladie;
+    //}
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {

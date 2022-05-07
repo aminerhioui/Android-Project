@@ -1,37 +1,35 @@
 package com.example.dermatologyapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.SearchView;
 import androidx.cursoradapter.widget.SimpleCursorAdapter;
 
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.text.TextWatcher;
 import android.widget.ArrayAdapter;
-import android.widget.AutoCompleteTextView;
 import android.widget.ListView;
+import android.text.Editable;
+
+import android.widget.ArrayAdapter;
+import android.widget.EditText;
+import android.widget.ListView;
+
 
 import java.util.ArrayList;
 
 public class ListMaladie extends AppCompatActivity {
-    private static final String[] MALADIES= new String[]{"Acne","Cold sore","Blister","Hives","Actinic keratosis","Rosacea","Carbuncle","Latex allergy","Eczema","Psoriasis","Cellulitis","Measles","Basal cell carcinoma", "Squamous cell carcinoma","Melanoma","Lupus","Contact dermatitis","Vitiligo","Wart"};
     ListView ls;
+    EditText search;
     ArrayList<Maladie> arrayList;
-    SearchView searchView;
-    ListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_maladie);
         ls=findViewById(R.id.lst);
+        search=findViewById(R.id.edit);
         DatabaseAccess databaseAccess=DatabaseAccess.getInstance(getApplicationContext());
-        AutoCompleteTextView editText=findViewById(R.id.automal);
-        ArrayAdapter<String> adapter= new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,MALADIES);
-        editText.setAdapter(adapter);
-
 
         databaseAccess.open();
 
@@ -47,6 +45,28 @@ public class ListMaladie extends AppCompatActivity {
         arrayList=databaseAccess.getAllMaladie();
         MaladieAdapter maladieAdapter=new MaladieAdapter(ListMaladie.this,R.layout.items,arrayList);
         ls.setAdapter(maladieAdapter);
+        ls.setTextFilterEnabled(true);
+
+        search.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int i, int i1, int i2) {
+                //MaladieAdapter.getFilter().filter(s.toString());
+
+            }
+
+
+            @Override
+            public void afterTextChanged(Editable editable) {
+
+            }})
+
+
+        ;
 
         databaseAccess.close();
     }
