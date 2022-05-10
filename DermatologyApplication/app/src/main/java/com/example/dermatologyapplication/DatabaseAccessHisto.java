@@ -17,7 +17,7 @@ public class DatabaseAccessHisto {
 
     private DatabaseAccessHisto(Context context){
 
-        this.openHelper=new DataBaseOpenHelper(context);
+        this.openHelper=new DataBaseOpenHelperHisto(context);
 
     }
 
@@ -40,14 +40,14 @@ public class DatabaseAccessHisto {
 
 
 
-    public ArrayList<Maladie> getAllHistogramme(){
-        ArrayList<Maladie> arrayList=new ArrayList<>();
-        Cursor c=db.rawQuery("SELECT * FROM Histograme",null);
+    public ArrayList<Historique> getAllHistorique(){
+        ArrayList<Historique> arrayList=new ArrayList<>();
+        Cursor c=db.rawQuery("SELECT * FROM Historique",null);
         while(c.moveToNext()) {
-            byte[] b=c.getBlob(5);
+            byte[] b=c.getBlob(4);
             if(b!=null) {
                 Bitmap objectBitmap = BitmapFactory.decodeByteArray(b, 0, b.length);
-                arrayList.add(new Maladie(c.getInt(0), c.getString(1), c.getString(2), c.getString(3), c.getString(4), objectBitmap));
+                arrayList.add(new Historique(c.getInt(0), c.getString(1), c.getInt(2), c.getInt(3), objectBitmap));
             }
 
         }

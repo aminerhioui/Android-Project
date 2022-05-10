@@ -7,6 +7,13 @@ public class Historique{
     int pourcentage ;
     int confirmation;
     Bitmap photo;
+    public Historique(String nom_maladie, int pourcentage, int confirmation,Bitmap photo
+    ) {
+        this.nom_maladie = nom_maladie;
+        this.pourcentage = pourcentage;
+        this.confirmation = confirmation;
+        this.photo = photo;
+    }
 
     public Historique() {
     }

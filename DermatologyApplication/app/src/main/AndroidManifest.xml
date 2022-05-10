@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DermatologyApplication">
         <activity
+            android:name=".ListHistorique"
+            android:exported="false" />
+        <activity
             android:name=".ListMaladie"
             android:exported="true" />
         <activity
