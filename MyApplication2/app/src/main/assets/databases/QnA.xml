@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<faq>
+    <section>
+        <question>What if my diagnosis in the app is far from the real diagnosis</question>
+        <answer>We offer you the right to rate your diagnosis in the archive section, this helps us improve our model and insure a better experience for our users.</answer>
+    </section>
+    <section>
+        <question>How does the diagnosis work?</question>
+        <answer>The application makes it really easy for you to get your diagnosis, navigate to the diagnosis part in the navigation bar and choose diagnosis, then you choose between taking a picture or browsing in the gallery once the picture is uploaded you get you diagnosis.</answer>
+    </section>
+    <section>
+        <question>What's the accuracy of the prediction?</question>
+        <answer>Our tensorflow lite model is well trained using the teachablemachine website, but not to worry the accuracy of the model is available at every diagnosis.</answer>
+    </section>
+</faq>
