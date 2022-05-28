@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_diagnosis"
+        android:title="Diagnosis"
+        android:icon="@drawable/search_img"/>
+
+    <item
+        android:id="@+id/navigation_historique"
+        android:icon="@drawable/history_img"
+        android:title="@string/title_history" />
+    <item
+        android:id="@+id/navigation_illnesses"
+        android:icon="@drawable/book"
+        android:title="@string/title_illnesses" />
+
+</menu>

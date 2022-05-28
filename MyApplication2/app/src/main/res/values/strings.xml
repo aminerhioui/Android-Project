@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DermApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_diagnosis">Diagnosis</string>
+    <string name="title_history">History</string>
+    <string name="title_illnesses">Illnesses</string>
+    <string name="title_activity_first_screen">DermApp</string>
+    <string name="title">Dermatology app based on Machine learning and AI</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_faq_adapter">FaqAdapter</string>
+    <string name="about_section1">Get your diagnosis just from a simple picture</string>
+    <string name="about_section2">Keep an organized and well preserved archive of your diagnosis</string>
+    <string name="about_section3">Search for illnesses and get all the information related to it</string>
+    <string name="about_section4">Get all the information that concerns the app from the home page</string>
+    <string name="why_us">Our application offers a huge variaty of dermatologic illnesses and our model is able to detect them in a small period of time, the app itself offers other useful functionalities that should make the follow up process easy.</string>
+</resources>
